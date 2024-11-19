@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: double;
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #f1a8b1;
+  color: #fff;
+  padding: 10px 0;
+}
+header .container{
+  display: flex;
+ justify-content:first baseline;
+ font-size: 20px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 36px;
+}
+
+.banner {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner h2 {
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+section {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 48px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria {
+  width: 1180px;
+  background-color: #f7b8c6;
+  border-radius: 8px;
+  margin: auto;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border: 3px solid #f28a92;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.imagens li {
+  list-style-type: none;
+}
+
+.imagens p {
+  margin-top: 10px;
+  text-align: center;
+  color: #f28a92;
+}
+
+footer {
+  background: #f1a8b1;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer .container p {
+  font-size: 18px;
+}
+
+.blacknovember{
+  height: 600px;
+}
+button{
+  padding: 10px 28px;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  background-color: #f28a92;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+button a{
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+.contato{
+  background-color: #f7b8c6;
+}
+.sobre h2{
+  color: #333;
+  text-decoration: none;
+}
+h2{
+  text-decoration: none;
+}
+.processo{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.processo h2{
+  color: #333;
+}
+.mapa{
+  display: flex;
+  justify-content: center;
+}
+
+.container4 li{
+  text-decoration: none;
+  list-style-type: none;
+}
