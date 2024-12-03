@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.size-transition{
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.8s;
+}
+.size-transition:hover{
+    width: 250px;
+    height: 150px;
+    font-size: 1.5rem;
+}

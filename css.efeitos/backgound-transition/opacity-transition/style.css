@@ -1,0 +1,15 @@
+.opacity-transition{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: opacity 0.8s ease;
+}
+.opacity-transition:hover{
+    opacity: 0.5;
+}

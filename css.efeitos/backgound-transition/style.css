@@ -1,0 +1,16 @@
+.background-transition{
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: background-color 22s ease-in;
+    line-height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.background-transition:hover{
+    background-color: green;
+}
